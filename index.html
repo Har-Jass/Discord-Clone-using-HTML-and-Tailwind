@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>HTML & Tailwind CSS Starter Pack</title>
+
+        <link rel="stylesheet" href="./main.css">
+
+        <!-- Add icon library -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <div class="overflow-x-hidden px-80 bg-gradient-to-b from-blue-900 to-indigo-500 w-screen h-screen">
+            <!-- main section -->
+            <section class="w-full">
+                <!-- logo, navigation bar and login button -->
+                <header class="w-11/12 mx-auto flex items-center justify-between flex-row py-4">
+                    <!-- logo -->
+                    <div>
+                        <img src="./images/logo.svg" alt="">
+                    </div>
+
+                    <!-- navigation bar -->
+                    <nav>
+                        <ul class="flex text-white space-x-8 font-semibold text-base cursor-pointer">
+                            <li>
+                                <a href="">
+                                    Download
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Nitro
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Discover
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Safety
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Support
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Blog
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    Careers
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+
+                    <!-- Button  -->
+                    <button class="bg-white rounded-full text-sm text-[#23272a] py-2 px-4 hover:text-[#404EED] font-bold">
+                        Login
+                    </button>
+                </header>
+
+                <!-- hero section -->
+                <main class="flex mr-[-60px] ml-2 mt-16">
+                    <div class="w-1/3 mt-36 ml-10">
+                        <h1 class="text-6xl leading-[45px] font-black text-white">
+                            GROUP CHAT THAT'S ALL FUN & GAMES
+                        </h1>
+                        <p class="text-2xl mt-10 text-white">
+                            Discord is great for playing games and chilling with friends, or even building a worldwide community. Customize your own space to talk, play, and hang out.
+                        </p>
+                    </div>
+                    <img src="./assets/asset 62.webp" alt="" class="w-2/3 ml-[-70px]">
+                </main>
+
+                <!-- download and open discord button -->
+                <div class="flex gap-8 mt-16 justify-center">
+                    <button class="bg-white rounded-full flex gap-3 items-center text-xl py-4 px-10 hover:text-[#404EED] hover:shadow-xl transition-all duration-200 font-semibold">
+                        <img src="./images/download.svg" alt="" class="w-6">
+                        Download for Windows
+                    </button>
+                    <button class="bg-[#161CBB] rounded-full text-white text-xl py-4 px-10 hover:shadow-2xl transition-all duration-200 font-semibold">
+                        Open Discord in your browser
+                    </button>
+                </div>
+            </section>
+
+            <!-- 3 div's with details -->
+            <section>
+                <!-- first -->
+                <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-3xl flex justify-around items-center p-6 shadow-lg w-full h-5/6 mt-48">
+                    <img src="./assets/asset 64.jpeg" alt="" class="rounded-3xl w-[45rem]">
+                    <div class="flex-col gap-10">
+                        <h2 class="text-5xl font-black text-white m-10">
+                            MAKE YOUR GROUP CHATS MORE FUN
+                        </h2>
+                        <p class="text-2xl m-10 text-white">
+                            Use custom emoji, stickers, soundboard effects and more to add your personality to your voice, video, or text chat. Set your avatar and a custom status, and write your own profile to show up in chat your way.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- second -->
+                <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-3xl flex justify-around items-center p-6 shadow-lg w-full h-5/6 mt-48">
+                    <div class="flex-col gap-10">
+                        <h2 class="text-5xl font-black text-white m-10">
+                            STREAM LIKE YOU'RE IN THE SAME ROOM
+                        </h2>
+                        <p class="text-2xl m-10 text-white">
+                            High quality and low latency streaming makes it feel like you're hanging out on the couch with friends while playing a game, watching shows, looking at photos, or idk doing homework or something.
+                        </p>
+                    </div>
+                    <img src="./assets/asset 22.webp" alt="" class="rounded-3xl w-[45rem]">
+                </div>
+
+                <!-- third -->
+                <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-3xl flex justify-around items-center p-6 shadow-lg w-full h-5/6 mt-48">
+                    <img src="./assets/asset 68.jpeg" alt="" class="rounded-3xl w-[45rem]">
+                    <div class="flex-col gap-10">
+                        <h2 class="text-5xl font-black text-white m-10">
+                            HOP IN WHEN YOU'RE FREE, NO NEED TO CALL
+                        </h2>
+                        <p class="text-2xl m-10 text-white">
+                            Easily hop in and out of voice or text chats without having to call or invite anyone, so your party chat lasts before, during, and after your game session.
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- horizontal moving slide -->
+            <div class="w-screen bg-gradient-to-r from-blue-400 to-blue-600 h-1/6 p-6 mt-48 ml-[-320px]">
+                <ul class="flex justify-around text-8xl font-black items-center text-white">
+                    <li>CHAT</li>
+                    <img src="./images/discord.svg" alt="" class="mt-5">
+                    <li>HANGOUT</li>
+                    <img src="./images/discord.svg" alt="" class="mt-5">
+                    <li>TALK</li>
+                    <img src="./images/discord.svg" alt="" class="mt-5">
+                    <li>PLAY</li>
+                </ul>
+            </div>
+
+            <!-- 3 div's with details -->
+            <section>
+                <!-- first -->
+                <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-3xl flex justify-around items-center p-6 shadow-lg w-full h-5/6 mt-48">
+                    <div class="flex-col gap-10">
+                        <h2 class="text-5xl font-black text-white m-10">
+                            SEE WHO'S AROUND TO CHILL
+                        </h2>
+                        <p class="text-2xl m-10 text-white">
+                            See who's around, playing games, or just hanging out. For supported games, you can see what modes or characters your friends are playing and directly join up.
+                        </p>
+                    </div>
+                    <img src="./assets/asset 71.jpeg" alt="" class="rounded-3xl w-[45rem]">
+                </div>
+                
+                <!-- second -->
+                <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-3xl flex justify-around items-center p-6 shadow-lg w-full h-5/6 mt-48">
+                    <img src="./assets/asset 38.webp" alt="" class="rounded-3xl w-[45rem]">
+                    <div class="flex-col gap-10">
+                        <h2 class="text-5xl font-black text-white m-10">
+                            ALWAYS HAVE SOMETHING TO DO TOGETHER
+                        </h2>
+                        <p class="text-2xl m-10 text-white">
+                            Watch videos, play built-in games, listen to music, or just scroll together and spam memes. Seamlessly text, call, video chat, and play games, all in one group chat.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- third -->
+                <div class="bg-white bg-opacity-10 backdrop-filter backdrop-blur-lg rounded-3xl flex justify-around items-center p-6 shadow-lg w-full h-5/6 mt-48">
+                    <div class="flex-col gap-10">
+                        <h2 class="text-5xl font-black text-white m-10">
+                            WHEREVER YOU GAME, HANG OUT HERE
+                        </h2>
+                        <p class="text-2xl m-10 text-white">
+                            On your PC, phone, or console, you can still hang out on Discord. Easily switch between devices and use tools to manage multiple group chats with friends.
+                        </p>
+                    </div>
+                    <img src="./assets/asset 41.webp" alt="" class="rounded-3xl w-[45rem]">
+                </div>
+            </section>
+
+            <!-- last section before footer -->
+            <section class="flex flex-col justify-center items-center mt-48 m-40 gap-10 leading-10">
+                <p class="text-6xl leading-[45px] font-black text-white">
+                    YOU CAN'T SCROLL ANYMORE.
+                </p>
+                <p class="text-6xl leading-[45px] font-black text-white mt-[-25px]">
+                    BETTER GO CHAT.
+                </p>
+                <button class="bg-white rounded-full flex gap-3 items-center text-xl py-4 px-10 hover:text-[#404EED] hover:shadow-xl transition-all duration-200 font-semibold">
+                    <img src="./images/download.svg" alt="" class="w-6">
+                    Download for Windows
+                </button>
+
+                <img src="./assets/asset 44.webp" alt="">
+
+                <hr class="w-screen border-t-4 border-white mt-[-40px] opacity-40">
+            </section>
+        </div>
+    </body>
+</html>
